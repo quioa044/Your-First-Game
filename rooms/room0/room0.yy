@@ -73,13 +73,54 @@
             "visible": true
         },
         {
+            "__type": "GMRTileLayer_Model:#YoYoStudio.MVCFormat",
+            "name": "layer_background",
+            "id": "857ed42b-0e5f-493b-8b35-9049eaa8f844",
+            "depth": 200,
+            "grid_x": 32,
+            "grid_y": 32,
+            "hierarchyFrozen": false,
+            "hierarchyVisible": true,
+            "inheritLayerDepth": false,
+            "inheritLayerSettings": false,
+            "inheritSubLayers": false,
+            "inheritVisibility": false,
+            "layers": [
+
+            ],
+            "m_parentID": "00000000-0000-0000-0000-000000000000",
+            "m_serialiseFrozen": false,
+            "modelName": "GMRTileLayer",
+            "prev_tileheight": 128,
+            "prev_tilewidth": 128,
+            "mvc": "1.0",
+            "tiles": {
+                "SerialiseData": null,
+                "SerialiseHeight": 6,
+                "SerialiseWidth": 16,
+                "TileSerialiseData": [
+                    9,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,
+                    3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,5,
+                    3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,5,
+                    3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,5,
+                    3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,5,
+                    6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,8
+                ]
+            },
+            "tilesetId": "2d071afb-a7dd-44c6-b3e3-9fae15a28f1f",
+            "userdefined_depth": false,
+            "visible": true,
+            "x": 0,
+            "y": 0
+        },
+        {
             "__type": "GMRBackgroundLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Background",
             "id": "89f7311b-5fba-418b-8b07-1cb14b8e36a7",
             "animationFPS": 15,
             "animationSpeedType": "0",
             "colour": { "Value": 4278190080 },
-            "depth": 200,
+            "depth": 300,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -127,11 +168,11 @@
         "modelName": "GMRoomSettings",
         "persistent": false,
         "mvc": "1.0",
-        "Width": 1024
+        "Width": 2048
     },
     "mvc": "1.0",
     "views": [
-{"id": "b1d8bec3-9402-41d4-8ecb-1e2a63f56b32","hborder": 32,"hport": 768,"hspeed": -1,"hview": 768,"inherit": false,"modelName": "GMRView","objId": "00000000-0000-0000-0000-000000000000","mvc": "1.0","vborder": 32,"visible": false,"vspeed": -1,"wport": 1024,"wview": 1024,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
+{"id": "b1d8bec3-9402-41d4-8ecb-1e2a63f56b32","hborder": 128,"hport": 768,"hspeed": -1,"hview": 768,"inherit": false,"modelName": "GMRView","objId": "3d82214c-7a08-438c-88ef-2b9850aab533","mvc": "1.0","vborder": 128,"visible": true,"vspeed": -1,"wport": 1024,"wview": 1024,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
 {"id": "d5e4bc85-fb4f-4807-9076-9f95c2198214","hborder": 32,"hport": 768,"hspeed": -1,"hview": 768,"inherit": false,"modelName": "GMRView","objId": "00000000-0000-0000-0000-000000000000","mvc": "1.0","vborder": 32,"visible": false,"vspeed": -1,"wport": 1024,"wview": 1024,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
 {"id": "e8c3bf3f-5f05-463f-93ff-1d8b7f3ad909","hborder": 32,"hport": 768,"hspeed": -1,"hview": 768,"inherit": false,"modelName": "GMRView","objId": "00000000-0000-0000-0000-000000000000","mvc": "1.0","vborder": 32,"visible": false,"vspeed": -1,"wport": 1024,"wview": 1024,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
 {"id": "0d449718-8ef2-4bd0-8815-4834285677db","hborder": 32,"hport": 768,"hspeed": -1,"hview": 768,"inherit": false,"modelName": "GMRView","objId": "00000000-0000-0000-0000-000000000000","mvc": "1.0","vborder": 32,"visible": false,"vspeed": -1,"wport": 1024,"wview": 1024,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
@@ -144,7 +185,7 @@
         "id": "3d60846d-7006-4858-9ca3-5129873000ea",
         "clearDisplayBuffer": true,
         "clearViewBackground": false,
-        "enableViews": false,
+        "enableViews": true,
         "inheritViewSettings": false,
         "modelName": "GMRoomViewSettings",
         "mvc": "1.0"
