@@ -5,7 +5,7 @@
     "name": "object_bullet",
     "eventList": [
         {
-            "id": "cca055fe-84b4-4f01-9f79-150f572c92dd",
+            "id": "4560d789-f369-4460-bdf7-011b620968c4",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
